@@ -1,0 +1,6 @@
+*.tgz
+coverage
+.github
+types/tsconfig.json
+types/test.ts
+test.js

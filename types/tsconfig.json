@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": [
+        "es6"
+    ],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "types": [],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "utf8-codec": ["./index.d.ts"]
+    }
+  }
+}

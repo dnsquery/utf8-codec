@@ -1,0 +1,4 @@
+package-lock.json
+*.js
+*.tgz
+coverage
