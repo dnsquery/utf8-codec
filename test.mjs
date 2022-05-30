@@ -76,7 +76,7 @@ test('all code points', function (t) {
   t.end()
 })
 
-test('performance', function (t) {
+test('performance', { skip: typeof TextDecoder === 'undefined' }, function (t) {
   function run (impl) {
     const start = Date.now()
     for (let i = 0; i < 10000; i++) {
